@@ -15,11 +15,12 @@
                     <div class="the-headline">
                         <h1 style="font-size:20px;">DETAILS</h1>
                     </div>
-                    <div class="textwidget"><p><i class="fa fa-map-marker"></i> "Biz Construct" Headquarters</p>
-                        <p><i class="fa fa-phone"></i> (305) 8592 4268</p>
-                        <p><i class="fa fa-envelope"></i> office@bizconstruct.com</p>
-                        <p><i class="fa fa-fax"></i> (106) 4762 8264</p>
-                        <p><i class="fa fa-clock-o"></i> Mon - Sat: 9:00 - 21:00</p>
+                    <div class="textwidget">
+                        {{--<p><i class="fa fa-map-marker"></i> "Biz Construct" Headquarters</p>--}}
+                        <p><i class="fa fa-phone"></i> +254 729 919 710</p>
+                        <p><i class="fa fa-envelope"></i> info@lifestilebuildersltd.co.ke</p>
+                        {{--<p><i class="fa fa-fax"></i> (106) 4762 8264</p>--}}
+                        <p><i class="fa fa-clock-o"></i> Mon - Sat: 08:00 - 18:00</p>
                     </div>
                 </div>
                 <div class="col-md-8">

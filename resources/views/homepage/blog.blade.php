@@ -2,7 +2,7 @@
 @section('content')
     <!-- =========================== PAGE HEADER BEGIN =========================== -->
     <section class="margin-bottom50 darkarea">
-        <div class="pagecover" style="background-image:url(assets/img/defaultbg.jpg)">
+        <div class="pagecover" style="background-image:url({{ asset('template/assets/img/defaultbg.jpg') }})">
             <div class="container">
                 <div class="entrycover short">
                     <h1 class="maintitle">Blog</h1>

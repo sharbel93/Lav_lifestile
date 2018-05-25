@@ -5,15 +5,16 @@
         <div class="customtypewowslider fullwidth flexslider clearfix cayman-slider" style="max-height:500px;">
             <ul class="slides slider-content-style1">
                 <li style="background-color:#000000;">
-                    <img src="https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2016/07/05175802/s1.jpg" alt="" style="opacity:0.7;">
-                    <div class="flex-caption" style="top:2%;">
+                    {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2016/07/05175802/s1.jpg--}}
+                    <img src="{{ asset('template/assets/images/tipper truck.jpg') }}" alt="" style="opacity:0.7;">
+                    <div class="flex-caption" style="top:0%;">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2">
                                     <h2 class="wow none" data-wow-duration="1.0s" data-wow-delay="0.1s">
                                         Quality that honors architectural vision </h2>
-                                    <h1 class="wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.6s"><span class="accentcolor">General</span><br/>
-                                        Contracting</h1>
+                                    <h1 class="wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.6s"><span class="accentcolor">Transport &amp; Hire</span><br/>
+                                        Of Plant &amp; Machinery</h1>
                                     <a href="{{ url('/contact') }}" class="btn btn-ghost wow none"> Free Quote </a>
                                     <a href="{{ url('/service') }}" class="btn btn-primary wow none"> Learn More </a>
                                 </div>
@@ -22,15 +23,16 @@
                     </div>
                 </li>
                 <li style="background-color:#000000;">
-                    <img src="https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2016/07/05175809/s2.jpg" alt="" style="opacity:0.7;">
+                    {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2016/07/05175809/s2.jpg--}}
+                    <img src="{{ asset('template/assets/images/starconcretefloortiles.jpg') }}" alt="" style="opacity:0.7;">
                     <div class="flex-caption" style="top:2%;">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2">
                                     <h2 class="wow none" data-wow-duration="1.0s" data-wow-delay="0.1s">
                                         QUALITY THAT HONORS ARCHITECTURAL VISION </h2>
-                                    <h1 class="wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.6s"><span class="accentcolor">Design Build</span> &amp;<br/>
-                                        Renovation</h1>
+                                    <h1 class="wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.6s"><span class="accentcolor">Building</span><br/>
+                                        Materials</h1>
                                     <a href="{{ url('/contact') }}" class="btn btn-ghost wow none"> Free Quote </a>
                                     <a href="{{ url('/service') }}" class="btn btn-primary wow none"> Learn More </a>
                                 </div>
@@ -39,15 +41,33 @@
                     </div>
                 </li>
                 <li style="background-color:#000000;">
-                    <img src="https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2016/07/05190348/s33.jpg" alt="" style="opacity:0.7;">
+                    {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2016/07/05190348/s33.jpg--}}
+                    <img src="{{ asset('template/assets/images/realestate.jpg') }}" alt="" style="opacity:0.7;">
                     <div class="flex-caption" style="top:2%;">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8 col-md-offset-2">
                                     <h2 class="wow none" data-wow-duration="1.0s" data-wow-delay="0.1s">
                                         QUALITY THAT HONORS ARCHITECTURAL VISION </h2>
-                                    <h1 class="wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.6s"><span class="accentcolor">Successful</span><br/>
-                                        Restauration</h1>
+                                    <h1 class="wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.6s"><span class="accentcolor">Real </span><br/>
+                                        Estate</h1>
+                                    <a href="{{ url('/contact') }}" class="btn btn-ghost wow none"> Free Quote </a> <!--#222546 / change with this #3949ab-->
+                                    <a href="{{ url('/service') }}" class="btn btn-primary wow none"> Learn More </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-color:#000000;">
+                    <img src="{{ asset('template/assets/images/cabros_paving_blocks_cosmic.jpg') }}" alt="" style="opacity:0.7;">
+                    <div class="flex-caption" style="top:0%;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <h2 class="wow none" data-wow-duration="1.0s" data-wow-delay="0.1s">
+                                        QUALITY THAT HONORS ARCHITECTURAL VISION </h2>
+                                    <h1 class="wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.6s"><span class="accentcolor">General Building</span><br/>
+                                        Construction &amp; Renovations</h1>
                                     <a href="{{ url('/contact') }}" class="btn btn-ghost wow none"> Free Quote </a>
                                     <a href="{{ url('/service') }}" class="btn btn-primary wow none"> Learn More </a>
                                 </div>
@@ -69,11 +89,16 @@
                 </div>
                 <div class="textwidget">
                     <p>
-                        Nisl congue varius. Curabitur ullamcorper nibh ut felis ultricies, in auctor lacus vulputate. Sed id auctor augue. Aenean pellentesque bibendum leo ut porttitor. Nam non odio nunc. Vivamus viverra sodales. Nisl congue varius. Curabitur ullamcorper nibh ut felis ultricies, in auctor lacus vulputate. Sed id auctor augue. Aenean pellentesque bibendum leo ut porttitor.
-                    </p>
+                        <strong>Lifestile builders ltd</strong> is a Kenyan incorporated company locally owned and registered with
+                        The National Construction Authority(NCA) and the Kenya Master Builders.The Company offers General Real Estate,Building Construction,
+                        Civil & Road  Construction Works and Transport/Supply of all building materials.
+                   </p>
                     <p>
-                        Nisl congue varius. Curabitur ullamcorper nibh ut felis ultricies, in auctor lacus vulputate. Sed id auctor augue. Aenean pellentesque bibendum leo ut porttitor. Nam non odio nunc. Vivamus viverra sodales. Nisl congue varius. Curabitur ullamcorper nibh ut felis ultricies, in auctor lacus vulputate. Sed id auctor augue.
-                    </p>
+                        Our area of expertise includes but is not limited to building technology,Civil and Structural Engineering.
+                        We work closely with other professionals in the built environment and clientele to accurately interpret
+                        their visions and  dreams to bring them to fruition of their projects.
+                        We keep our clients informed throughout the construction period and ensure that the project keeps on schedule and within budget.
+                     </p>
                 </div>
             </div>
             <div class="col-md-6 wow fadeInRight">
@@ -83,18 +108,18 @@
     </section>
     <!-- =========================== ABOUT END =========================== -->
     <!-- =========================== PORTFOLIO BEGIN =========================== -->
-    <section class="margin-bottom50 padding-top50 darkarea" style="background-color:#222546;">
+    <section class="margin-bottom50 padding-top50 darkarea" style="background-color:#3949ab;">
         <div class="container">
             <div class="the-headline text-center ">
-                <h1>Finished <span class="accentcolor">Projects</span></h1>
+                <h1>Our Building &nbsp;<span class="accentcolor">Materials</span></h1>
             </div>
             <div id="portfolio-filter" class="text-center">
                 <ul class="portfolio-filter-list">
                     <li><a href="#" data-cat="*" class="active">All</a></li>
-                    <li><a href="#" data-cat=".9">big</a></li>
-                    <li><a href="#" data-cat=".11">buildings</a></li>
-                    <li><a href="#" data-cat=".10">gardens</a></li>
-                    <li><a href="#" data-cat=".8">houses</a></li>
+                    <li><a href="#" data-cat=".9">blocks</a></li>
+                    <li><a href="#" data-cat=".11">tiles</a></li>
+                    <li><a href="#" data-cat=".10">posts</a></li>
+                    <li><a href="#" data-cat=".8">others</a></li>
                 </ul>
             </div>
         </div>
@@ -201,7 +226,15 @@
                     <div class="decoration-inside">
                     </div>
                 </div>
-                <h3>WE BRING YOU THE AMAZING SERVICES SINCE 1989</h3>
+                <div class="col-md-12">
+                    <section class="text-center" style="padding: 12px;">
+                        <div class="textwidget">
+                            <p><a class="btn icon whiteicon btn-primary rightmargin" href="{{ url('/service') }}">View Services<i class="fa fa-cogs"></i></a>
+                                or <a class="btn left icon whiteicon btn-inverse leftmargin" href="{{ url('/contact') }}"><i class="fa fa-envelope"></i>Get Free Quote</a></p>
+                        </div>
+                    </section>
+                </div>
+                {{--<h3>WE BRING YOU THE AMAZING SERVICES SINCE 1989</h3>--}}
             </div>
 
             <div class="sow-services-list">
@@ -212,15 +245,17 @@
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="type">
-                                        <span class="sow-icon-fontawesome"><i class="fa fa-cloud-download"></i></span>
+                                        <span class="sow-icon-fontawesome"><i class="fa fa-home"></i></span>
                                     </div>
                                 </div>
                                 <div class="col-md-9">
                                     <a href="#" title="">
-                                        <h3>Engineering &amp; Design</h3>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, alias aliquam amet aperiam consequuntur deleniti doloribus eaque eum.
-                                        </p>
+                                        <h3>Real Estate</h3>
+                                        <ul class="unstyle checklist">
+                                            <li>Leasing of Houses, Offices, Go Downs</li>
+                                            <li>Letting of Apartments</li>
+                                            <li>Morgages</li>
+                                        </ul>
                                     </a>
                                 </div>
                             </div>
@@ -232,14 +267,16 @@
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="type">
-                                        <span class="sow-icon-fontawesome"><i class="fa fa-trophy"></i></span>
+                                        <span class="sow-icon-fontawesome"><i class="fa fa-wrench"></i></span>
                                     </div>
                                 </div>
                                 <div class="col-md-9">
-                                    <h3>Digital Enterprise</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, alias aliquam amet aperiam consequuntur deleniti doloribus eaque eum.
-                                    </p>
+                                    <h3>General Civil Engineering Works</h3>
+                                    <ul class="unstyle checklist">
+                                        <li>Construction Consulting</li>
+                                        <li>Project Management</li>
+                                        <li>Culvert And Drainage Work</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -250,15 +287,17 @@
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="type">
-                                        <span class="sow-icon-fontawesome"><i class="fa fa-area-chart"></i></span>
+                                        <span class="sow-icon-fontawesome"><i class="fa fa-truck"></i></span>
                                     </div>
                                 </div>
                                 <div class="col-md-9">
                                     <a href="#" title="">
-                                        <h3>Safety Management</h3>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, alias aliquam amet aperiam consequuntur deleniti doloribus eaque eum.
-                                        </p>
+                                        <h3>Transport &amp; Services</h3>
+                                        <ul class="unstyle checklist">
+                                            <li>updated</li>
+                                            <li>updated</li>
+                                            <li>updated</li>
+                                        </ul>
                                     </a>
                                 </div>
                             </div>
@@ -270,14 +309,16 @@
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="type">
-                                        <span class="sow-icon-fontawesome"><i class="fa fa-cab"></i></span>
+                                        <span class="sow-icon-fontawesome"><i class="fa fa-cog"></i></span>
                                     </div>
                                 </div>
                                 <div class="col-md-9">
-                                    <h3>Environmental, Health</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, alias aliquam amet aperiam consequuntur deleniti doloribus eaque eum.
-                                    </p>
+                                    <h3>Building Materials</h3>
+                                    <ul class="unstyle checklist">
+                                        <li>updated</li>
+                                        <li>updated</li>
+                                        <li>updated</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -302,7 +343,7 @@
                         <div class="icon">
                             <span class="sow-icon-fontawesome"><i class="fa fa-life-ring"></i></span>
                         </div>
-                        <h2 class="counter" style="">397</h2>
+                        <h2 class="counter" style="">20</h2>
                         <h4>Loyal Clients</h4>
                     </div>
                 </div>
@@ -312,7 +353,7 @@
                         <div class="icon">
                             <span class="sow-icon-fontawesome"><i class="fa fa-cube"></i></span>
                         </div>
-                        <h2 class="counter" style="">800</h2>
+                        <h2 class="counter" style="">30</h2>
                         <h4>Projects Completed</h4>
                     </div>
                 </div>
@@ -322,7 +363,7 @@
                         <div class="icon">
                             <span class="sow-icon-fontawesome"><i class="fa fa-globe"></i></span>
                         </div>
-                        <h2 class="counter" style="">685</h2>
+                        <h2 class="counter" style="">50</h2>
                         <h4>Auctions Won</h4>
                     </div>
                 </div>
@@ -374,7 +415,7 @@
                     <h5 style="margin-bottom:20px;">Working with us</h5>
                     <h2 style="margin-bottom:24px;">Contractors & Construction<br/>	Managers Since 1989</h2>
                     <p>
-                        <a class="btn icon whiteicon btn-primary rightmargin" href="#">About Us<i class="fa fa-arrow-right"></i></a>
+                        <a class="btn icon whiteicon btn-primary rightmargin" href="{{ url('/about') }}">About Us<i class="fa fa-arrow-right"></i></a>
                     </p>
                 </div>
             </div>
@@ -409,7 +450,7 @@
                                 <div class="blog-content">
                                     <h3 class="entry-title"><a href="#"> Interior Design </a></h3>
                                     <p>
-                                        <span class="vcard author"><span class="fn">By WowThemes</span></span> in <a href="#" rel="category tag">Interiors</a>
+                                        <span class="vcard author"><span class="fn">By Admin</span></span>  <a href="#" rel="category tag"></a>
                                     </p>
                                 </div>
                             </article>
@@ -428,7 +469,7 @@
                                 <div class="blog-content">
                                     <h3 class="entry-title"><a href="#"> Renovation </a></h3>
                                     <p>
-                                        <span class="vcard author"><span class="fn">By WowThemes</span></span> in <a href="#" rel="category tag">how to</a>
+                                        <span class="vcard author"><span class="fn">By Admin</span></span>  <a href="#" rel="category tag"></a>
                                     </p>
                                 </div>
                             </article>
@@ -447,7 +488,7 @@
                                 <div class="blog-content">
                                     <h3 class="entry-title"><a href="#"> Wooden Construction </a></h3>
                                     <p>
-                                        <span class="vcard author"><span class="fn">By WowThemes</span></span> in <a href="#" rel="category tag">Business</a>
+                                        <span class="vcard author"><span class="fn">By Admin</span></span>  <a href="#" rel="category tag"></a>
                                     </p>
                                 </div>
                             </article>

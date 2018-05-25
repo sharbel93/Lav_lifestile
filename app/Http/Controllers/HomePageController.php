@@ -30,6 +30,97 @@ class HomePageController extends Controller
         return view('homepage.blog');
     }
 
+    public function getShallow() {
+        return view('service_pages.shallowdrain');
+    }
+
+    public function getCulverts() {
+        return view('service_pages.culverts');
+    }
+
+    public function getLouver() {
+        return view('service_pages.louvervents');
+    }
+
+    public function getConcrete() {
+        return view('service_pages.concretefloor');
+    }
+
+    public function getStar() {
+        return view('service_pages.starconcrete');
+    }
+
+    public function getHatari() {
+        return view('service_pages.hatari');
+    }
+
+    public function getWindow() {
+        return view('service_pages.windowcill');
+    }
+
+    public function getPaving() {
+        return view('service_pages.pavingslab');
+    }
+
+    public function getSide() {
+        return view('service_pages.sideslab');
+    }
+
+    public function getIbd() {
+        return view('service_pages.ibddrainages');
+    }
+
+    public function getVentilation() {
+        return view('service_pages.ventilations');
+    }
+
+    public function getHollow() {
+        return view('service_pages.hollowblock');
+    }
+
+    public function getSolid() {
+        return view('service_pages.solidblock');
+    }
+
+    public function getRoadCurb() {
+        return view('service_pages.roadcurbs');
+    }
+
+    public function getRoofing() {
+        return view('service_pages.roofingridges');
+    }
+
+    public function getFlower() {
+        return view('service_pages.flowervents');
+    }
+
+    public function getColumn() {
+        return view('service_pages.columncoupings');
+    }
+
+    public function getKerra() {
+        return view('service_pages.kerraboundary');
+    }
+
+    public function getCeramic() {
+        return view('service_pages.ceramicfloor');
+    }
+
+    public function getTerrazo() {
+        return view('service_pages.terrazobench');
+    }
+
+    public function getCabros() {
+        return view('service_pages.cabrosblocks');
+    }
+
+    public function getPavingBlocks() {
+        return view('service_pages.pavingblocks');
+    }
+
+    public function getRoadChannels() {
+        return view('service_pages.roadchannels');
+    }
 
 
 

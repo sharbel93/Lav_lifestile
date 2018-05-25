@@ -11,20 +11,20 @@
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <div class="text-2 widget_text">
+                    <div class="text-2 widget_text text-center">
                         <div class="widget sep-top-lg">
                             <div class="textwidget">
-                                <p>
+                                <p >
                                     {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2016/07/05191140/footerlogo-1.png--}}
 
                                     <img src="{{ asset('template/assets/img/log.png') }}" alt="">
                                 </p>
-                                <p>
-                                    Simple, flexible theme, ideally suited for business ventures. With powerful, easy to use preset elements you can design any layout that you can imagine.
-                                </p>
-                                <p>
-                                    This is the HTML5  version of BizConstruct, a WordPress version is also available. The template comes with documentation and free support.
-                                </p>
+                                {{--<p>--}}
+                                    {{--Simple, flexible theme, ideally suited for business ventures. With powerful, easy to use preset elements you can design any layout that you can imagine.--}}
+                                {{--</p>--}}
+                                {{--<p>--}}
+                                    {{--This is the HTML5  version of BizConstruct, a WordPress version is also available. The template comes with documentation and free support.--}}
+                                {{--</p>--}}
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             <h3 class="upper widget-title">Business Hours</h3>
                             <div class="textwidget">
                                 <p>
-                                    We're available 24 Hours a day: (888) 252 389 3571
+                                    We're available 24 Hours a day <br>+254 729 919 710<br>+254 777 919 710
                                 </p>
                                 <p>
                                     Monday - Friday: 9am to 5pm<br/>
@@ -114,9 +114,7 @@
                             <h3 class="upper widget-title">Company Location</h3>
                             <div class="textwidget">
                                 <p>
-                                    "Biz Construct" Headquarters<br/>
-                                    4166 Olen Thomas Drive<br/>
-                                    United States, Graford, TX 76045
+                                   Eldoret
                                 </p>
                             </div>
                         </div>
