@@ -21,6 +21,7 @@ Route::get('/home', 'DashboardController@index')->name('home');
 // Homepage (landing page)
 Route::get('/', 'HomePageController@index');
 Route::get('/contact', 'HomePageController@contact');
+Route::post('/contact_form', 'HomePageController@EmailContact');
 Route::get('/blog', 'HomePageController@blog');
 Route::get('/portfolio', 'HomePageController@portfolio');
 Route::get('/service', 'HomePageController@services');

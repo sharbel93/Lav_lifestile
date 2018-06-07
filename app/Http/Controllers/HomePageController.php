@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Mail;
+use App\Mail\ContactMail;
+
 
 class HomePageController extends Controller
 {
@@ -122,6 +125,44 @@ class HomePageController extends Controller
         return view('service_pages.roadchannels');
     }
 
+
+    public function EmailContact( Request $request) {
+
+        // validate data
+        $this->validate($request, array(
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255',
+            'company' => 'required|string|max:50',
+            'subject' => 'required|string|max:20',
+            'message' => 'required|string|max:500'
+        ));
+
+
+
+
+        $name= $request->name;
+        $content = $request->message;
+        $email = $request->email;
+        $subject = $request->subject;
+        $company = $request->company;
+
+//       dd($email,$content, $name, $subject, $company);
+
+//
+//        Mail::send('emails.contact', ['name' => $name, 'content' => $content, 'subject' => $subject, 'company' => $company ],
+//            function ($message) use ($email, $name, $subject){
+//            $message->from($email);
+//            $message->to(env('MAIL_ACCOUNT'));
+//            $message->subject($name . ', ' .env('APP_NAME').' '.' Contact');
+//
+//            });
+
+        Mail::send(new ContactMail($request));
+
+//        flash('Your message has been sent!')->success();
+
+        return redirect()->back();
+    }
 
 
 }

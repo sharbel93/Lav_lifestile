@@ -45,22 +45,13 @@
                   <div class="col-md-8 no-pad">
                      <div class="tab-content tabstyle1">
                         <div role="tabpanel" class="tab-pane " id="tab_two0">
-                           <h4>FINANCING &amp; EQUITY INVESTMENT</h4>
-                           <p>P
-                              Leading-edge e-services feeds, dot-com integrateAJAX-enabled value solutions world-class authentic ubiquitous redefine intuitive mashups technologies rss-capable ROI open-source. Rich-clientAPIs functionalities e-business world-class. B2B, generate. Blogging user-centric ubiquitous communities end-to-end beta-test world-class wireless orchestrate monetize seamless ubiquitous.
-                           </p>
-                           <p>
-                              Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-                           </p>
-                           <p>
-                              Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-                           </p>
+                           <h4>TRANSPORT &amp; HIRE OF PLANT &amp; MACHINERY</h4>
+
                            <ul class="unstyle checklist">
-                              <li>Podcasting operational change management inside</li>
-                              <li>Workflows to establish a framework</li>
-                              <li>Taking seamless key performance indicators </li>
-                              <li>Keeping your eye on the ball while performing</li>
-                              <li>Start-up mentality to derive convergence</li>
+                              <li>Tipper trucks</li>
+                              <li>Concrete mixers</li>
+                              <li>Scaffolds </li>
+                              <li>Cranes</li>
                            </ul>
                         </div>
                         <div role="tabpanel" class="tab-pane active in" id="tab_two1">
@@ -102,6 +93,7 @@
                                     <li><a class="btn" href="{{ url('/service/cabro_blocks') }}">Cabros Blocks</a></li>
                                     <li><a class="btn" href="{{ url('/service/paving_blocks') }}">paving blocks</a></li>
                                     <li><a class="btn" href="{{ url('/service/road_channels') }}">Road Channels</a></li>
+                                    <li><a class="btn" href="{{ url('/service/balustrades_balcony_posts') }}">Road Channels</a></li>
 
                                  </ul>
                               </div>
@@ -123,6 +115,9 @@
                         <div role="tabpanel" class="tab-pane " id="tab_two3">
                            <h4>REAL ESTATE</h4>
                            <ul class="unstyle checklist">
+                              <p> Our residential plots are fully serviced with tarmac roads, drainage, manholes, electricity, and water utilities</p>
+                              <br>
+                              <p>We offer these catgories in real estate:</p>
                               <li>Plots</li>
                                <li>Leasing of Houses, Offices, Go Downs</li>
                                <li>Letting of apartments</li>

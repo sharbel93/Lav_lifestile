@@ -56,28 +56,28 @@
                             <li class="current-menu-item active"><a href="{{ url('/') }}">Home</a></li>
                             <li><a href="{{ url('/about') }}">About</a></li>
                             <li><a href="{{ url('/service') }}">Services</a></li>
-                            <li class="dropdown"><a title="Pages" href="#" data-hover="dropdown" class="dropdown-toggle">
-                                    Pages <span class="caret"></span></a>
-                                <ul role="menu" class=" sub-menu">
-                                    <li><a href="video.html">Video</a></li>
-                                    <li><a href="f-a-q.html">F.A.Q.</a></li>
-                                    <li class="menu-item dropdown"><a title="Lightbox Galleries" href="#">Lightbox Galleries</a>
-                                        <ul role="menu" class="sub-menu">
-                                            <li><a href="gallery-four.html">Gallery Four</a></li>
-                                            <li><a href="gallery-three.html">Gallery Three</a></li>
-                                            <li><a href="gallery-two.html">Gallery Two</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="testimonials.html">Testimonials</a></li>
-                                    <li><a href="page-sidebar.html">Page Sidebar</a></li>
-                                    <li><a href="portfolio-single.html">Portfolio Single</a></li>
-                                    <li><a href="blog-single.html">Blog Single</a></li>
-                                </ul>
-                            </li>
+                            {{--<li class="dropdown"><a title="Pages" href="#" data-hover="dropdown" class="dropdown-toggle">--}}
+                                    {{--Pages <span class="caret"></span></a>--}}
+                                {{--<ul role="menu" class=" sub-menu">--}}
+                                    {{--<li><a href="video.html">Video</a></li>--}}
+                                    {{--<li><a href="f-a-q.html">F.A.Q.</a></li>--}}
+                                    {{--<li class="menu-item dropdown"><a title="Lightbox Galleries" href="#">Lightbox Galleries</a>--}}
+                                        {{--<ul role="menu" class="sub-menu">--}}
+                                            {{--<li><a href="gallery-four.html">Gallery Four</a></li>--}}
+                                            {{--<li><a href="gallery-three.html">Gallery Three</a></li>--}}
+                                            {{--<li><a href="gallery-two.html">Gallery Two</a></li>--}}
+                                        {{--</ul>--}}
+                                    {{--</li>--}}
+                                    {{--<li><a href="pricing.html">Pricing</a></li>--}}
+                                    {{--<li><a href="team.html">Team</a></li>--}}
+                                    {{--<li><a href="testimonials.html">Testimonials</a></li>--}}
+                                    {{--<li><a href="page-sidebar.html">Page Sidebar</a></li>--}}
+                                    {{--<li><a href="portfolio-single.html">Portfolio Single</a></li>--}}
+                                    {{--<li><a href="blog-single.html">Blog Single</a></li>--}}
+                                {{--</ul>--}}
+                            {{--</li>--}}
                             <li><a href="{{ url('/portfolio') }}">Portfolio</a></li>
-                            <li><a href="{{ url('/blog') }}">Blog</a></li>
+                            {{--<li><a href="{{ url('/blog') }}">Blog</a></li>--}}
                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                             <li class="highlight"><a href="{{ url('/contact') }}">Free Quote</a></li>
                         </ul>

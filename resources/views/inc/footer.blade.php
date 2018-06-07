@@ -69,26 +69,21 @@
                     </div>
                     <div class="recent-posts-3 widget_recent_entries">
                         <div class="widget sep-top-lg">
-                            <h3 class="upper widget-title">Recent News</h3>
+                            <h3 class="upper widget-title">Services</h3>
                             <ul>
                                 <li>
-                                    <a href="#">Interior Design</a>
+                                    <a href="#">Transport &amp; Hire Of Plant &amp; Machinery</a>
                                 </li>
                                 <li>
-                                    <a href="#">Renovation</a>
+                                    <a href="#">Building Materials</a>
                                 </li>
                                 <li>
-                                    <a href="#">Wooden Construction</a>
+                                    <a href="#">Real Estate</a>
                                 </li>
                                 <li>
-                                    <a href="#">Lake Houses</a>
+                                    <a href="#">General Building Construction &amp; Renovation</a>
                                 </li>
-                                <li>
-                                    <a href="#">Building Houses is Fun</a>
-                                </li>
-                                <li>
-                                    <a href="#">Tree House</a>
-                                </li>
+
                             </ul>
                         </div>
                     </div>
@@ -131,14 +126,20 @@
                                         Your message has been sent. Thank you!
                                     </div>
                                 </div>
-                                <form method="post" action="footer-contact.php" id="contactform">
+
+
+                                <form  data-parsley-validate method="post" action="{{ url('contact_form') }}" id="contactform">
+                                    @csrf
                                     <div class="form wpcf7-form .form-control">
                                         <div class="controls controls-row">
-                                            <input type="text" name="name" placeholder="Name"><br/>
-                                            <input type="text" name="email" placeholder="E-mail"><br/>
+                                            <input type="text" name="name" placeholder="Name" required=""><br/>
+                                            <input type="text" name="email" placeholder="E-mail" required=""><br/>
+                                            <input type="text" name="company" placeholder="Company" required=""><br>
+                                            <input type="text" name="subject" placeholder="Subject" required=""><br>
+
                                         </div>
                                         <div class="controls">
-                                            <textarea  name="comment" rows="4" placeholder="Message"></textarea><br/>
+                                            <textarea name="message" rows="8"  placeholder="Enter your Message" required=" "></textarea><br/>
                                         </div>
                                         <input type="submit" id="submit" class="btn" value="Send">
                                     </div>

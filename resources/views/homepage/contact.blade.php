@@ -34,20 +34,33 @@
                                 Your message has been sent. Thank you!
                             </div>
                         </div>
-                        <form class="wpcf7-form" method="post" action="main-contact.php" id="pagecontactform">
+                        <form class="wpcf7-form"  data-parsley-validate method="post" action="{{ url('contact_form') }}" id="pagecontactform">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" name="mainname" placeholder="Name">
+                                    <input type="text" name="name" placeholder="Name" required="">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="mainemail" placeholder="E-mail">
+                                    <input type="email" name="email" placeholder="E-mail" required="">
+                                </div>
+                            </div>
+                            <div class="row" style="padding-top: 24px">
+                                <div class="col-md-6">
+                                    <input type="text" name="company" placeholder="Company" required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="subject" placeholder="Subject" required="">
                                 </div>
                             </div>
                             <br/>
-                            <textarea name="maincomment" rows="4" placeholder="Message"></textarea>
+                            <textarea name="message" rows="8"  placeholder="Enter your Message" required=" "></textarea>
                             <br/>
-                            <input type="submit" id="submitmaincontact" class="btn" value="Send">
+                            <button type="submit"  class="btn-success" >Send Message</button>
+                                {{--id="submitmaincontact"--}}
                         </form>
+
+
+
                     </div>
                 </div>
             </div>

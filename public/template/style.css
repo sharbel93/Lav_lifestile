@@ -569,6 +569,8 @@ ul.sub-menu>li:hover ul.sub-menu>li.menu-item>ul.sub-menu {
 }
 
 @media(min-width:768px) {
+
+
 	.navbar {
 		line-height:1.6;
 		font-size:14px;
@@ -665,6 +667,7 @@ ul.sub-menu>li:hover ul.sub-menu>li.menu-item>ul.sub-menu {
 	}
 }
 @media(max-width:767px) {
+
 	.siteorigin-panels-stretch {
 		background-position: 100% !important;
 		background-size:cover !important;
@@ -6342,9 +6345,11 @@ small,.small {
 	}
 	.customtypewowslider .flex-caption {
 		text-align:center;
+
 	}
 	.flexslider,.fullwidth.flexslider {
 		overflow:hidden;
+
 	}
 	.flex-control-nav {
 		bottom:0 !Important;
@@ -6441,6 +6446,7 @@ small,.small {
 	.customtypewowslider .flex-caption {
 		text-align:center;
 		padding-top:15px !Important;
+
 	}
 	.pagecover .entrycover.short h1.maintitle {
 		font-size:30px;

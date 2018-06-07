@@ -28,7 +28,7 @@
     <!-- Styles -->
     {{--<link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
 </head>
-<body>
+<body >
 <div class="page-loader">
     <img src="{{ asset('template/assets/img/loader.gif') }}" alt="loader">
 </div>

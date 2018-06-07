@@ -18,7 +18,7 @@
             <div class="col-md-6">
                 <div class="the-headline">
                     <h1>About <span class="accentcolor">Us</span></h1>
-                    <h3 style="font-size:16px;">WE'RE THE MOST AWARDED COMPANY SINCE 1989</h3>
+                    {{--<h3 style="font-size:16px;">WE'RE THE MOST AWARDED COMPANY SINCE 1989</h3>--}}
                 </div>
                 <div class="textwidget">
                     <p>
@@ -44,7 +44,7 @@
     <!-- =========================== ABOUT END =========================== -->
 
     <!-- =========================== FEATURES BEGIN =========================== -->
-    <section class="padding-top80 darkarea" style="background-color:#222546;">
+    <section class="padding-top80 darkarea" style="background-color:#3949ab;">
         <div class="container">
             <div class="col-md-4">
                 <h1 style="font-size:20px;font-weight:700;">Our&nbsp;<span class="accentcolor">Vision</span> </h1>
@@ -54,6 +54,10 @@
                 </p>
                 </div>
                 <br/>
+
+            </div>
+            <div class="col-md-4">
+                {{--<img src="{{ asset('template/assets/img/whyus.png') }}" class="so-widget-image" alt="">--}}
                 <h1 style="font-size:20px;font-weight:700;">Our&nbsp;<span class="accentcolor">Mission</span> </h1>
                 <div class="textwidget">
                     <p>
@@ -62,9 +66,6 @@
                         cost effective services of highest level of quality.
                     </p>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <img src="{{ asset('template/assets/img/whyus.png') }}" class="so-widget-image" alt="">
             </div>
             <div class="col-md-4">
                 <h1 style="font-size:20px;font-weight:700;">Our&nbsp;<span class="accentcolor">Values</span> </h1>
