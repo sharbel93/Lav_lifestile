@@ -278,6 +278,7 @@
     </style>
 </head>
 <body class="">
+
 <table border="0" cellpadding="0" cellspacing="0" class="body">
     <tr>
         <td>&nbsp;</td>
@@ -290,33 +291,30 @@
 
                     <!-- START MAIN CONTENT AREA -->
                     <tr>
+                        <img class="align-right" src="{{ asset('template/assets/img/logo.jpg') }}" height="120" width="120" alt="logo">
                         <td class="wrapper">
-                            <table border="0" cellpadding="0" cellspacing="0">
+                            <table border="0" cellpadding="2" cellspacing="2">
+                                <tr >
+                                   <p><span style="color: #4caf50; font-weight: bold;">From:</span> <br>{{$name}}</p>
+                                   <p><span style="color: #4caf50; font-weight: bold;">Company: </span> <br>{{$company}}</p>
+                                </tr>
+                                <tr>
+                                    <p><span style="color: #4caf50; font-weight: bold;">Phone number:</span> <br>{{$phone}}</p>
+                                    <p><span style="color: #4caf50; font-weight: bold;">Site Location:</span> <br>{{$site}}</p>
+                                </tr>
+                                <tr >
+                                    <p><span style="color:#4caf50; font-weight: bold;">Subject:</span> <br>{{$subject}}</p>
+                                </tr>
+                                <tr>
+
+                                        <p><span style="color: #4caf50; font-weight: bold;">Message: </span> <br> {{$content}}</p>
+                                </tr>
                                 <tr>
                                     <td>
-                                        <p><span style="color: #3949ab; font-weight: bold;">From:</span> <br> {{$name}}</p>
-                                        <p><span style="color: #3949ab; font-weight: bold;">Subject:</span> <br> {{$subject}}</p>
-                                        <p><span style="color: #3949ab; font-weight: bold;">Company: </span> <br> {{$company}}</p>
-                                        <p><span style="color: #3949ab; font-weight: bold;">Message: </span> <br> {{$content}}</p>
-                                        <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
-                                            <tbody>
-                                            <tr>
-                                                <td align="left">
-                                                    <table border="0" cellpadding="0" cellspacing="0">
-                                                        <tbody>
-                                                        <tr>
-                                                            <td> <a href="{{url('/')}}" target="_blank">{{env('APP_NAME')}}</a> </td>
-                                                        </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                        <p>{{env('APP_NAME')}}</p>
-                                        <p>lifestilebuildersltd</p>
+                                        <p class="align-center">LifeStile Builders Ltd</p>
                                     </td>
                                 </tr>
+
                             </table>
                         </td>
                     </tr>
@@ -335,7 +333,7 @@
                         </tr>
                         <tr>
                             <td class="content-block powered-by">
-                                &copy; lifestyleBuilders Ltd.
+                                &copy; LifeStile Builders Ltd.
                                 {{--Powered by <a href="http://www.appslab.co.ke">Apps:Lab KE</a>.--}}
                             </td>
                         </tr>

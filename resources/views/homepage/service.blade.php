@@ -5,8 +5,8 @@
       <div class="pagecover" style="background-image:url({{ asset('template/assets/img/defaultbg.jpg') }})">
          <div class="container">
             <div class="entrycover short">
-               <h1 class="maintitle">Services</h1>
-               <nav class="breadcrumbs"><span><a href="#">Home</a></span> <span class="sep">/</span> <span>Services</span></nav><!-- .breadcrumbs -->		</div>
+               <h1 class="maintitle">Products &amp; Services</h1>
+               <nav class="breadcrumbs"><span><a href="{{ url('/') }}">Home</a></span> <span class="sep">/</span> <span>Services</span></nav><!-- .breadcrumbs -->		</div>
          </div>
       </div>
    </section>

@@ -17,7 +17,7 @@
                                 <p >
                                     {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2016/07/05191140/footerlogo-1.png--}}
 
-                                    <img src="{{ asset('template/assets/img/log.png') }}" alt="">
+                                    <img src="{{ asset('template/assets/img/logo.jpg') }}" alt="">
                                 </p>
                                 {{--<p>--}}
                                     {{--Simple, flexible theme, ideally suited for business ventures. With powerful, easy to use preset elements you can design any layout that you can imagine.--}}
@@ -69,19 +69,25 @@
                     </div>
                     <div class="recent-posts-3 widget_recent_entries">
                         <div class="widget sep-top-lg">
-                            <h3 class="upper widget-title">Services</h3>
+                            <h3 class="upper widget-title">Quick Links</h3>
                             <ul>
                                 <li>
-                                    <a href="#">Transport &amp; Hire Of Plant &amp; Machinery</a>
+                                    <a href="{{ url('/service') }}">Transport &amp; Hire Of Plant &amp; Machinery</a>
                                 </li>
                                 <li>
-                                    <a href="#">Building Materials</a>
+                                    <a href="{{ url('/service') }}">Building Materials</a>
                                 </li>
                                 <li>
-                                    <a href="#">Real Estate</a>
+                                    <a href="{{ url('/service') }}">Real Estate</a>
                                 </li>
                                 <li>
-                                    <a href="#">General Building Construction &amp; Renovation</a>
+                                    <a href="{{ url('/service') }}">General Building Construction &amp; Renovation</a>
+
+                                </li>
+
+                                <li>
+                                    <a href="{{ url('/solarsystem') }}">Solar Systems Solutions</a>
+
                                 </li>
 
                             </ul>

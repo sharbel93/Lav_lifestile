@@ -38,18 +38,26 @@
                             @csrf
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" name="name" placeholder="Name" required="">
+                                    <input type="text" name="name" placeholder="Name" required="" />
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" name="email" placeholder="E-mail" required="">
+                                    <input type="email" name="email" placeholder="E-mail" required="" />
                                 </div>
                             </div>
                             <div class="row" style="padding-top: 24px">
                                 <div class="col-md-6">
-                                    <input type="text" name="company" placeholder="Company" required="">
+                                    <input  type="tel" name="phone"  placeholder="+000-123-456789" pattern="[0-9]" required="" />
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="subject" placeholder="Subject" required="">
+                                    <input type="text" name="site" placeholder="Site location" required="" />
+                                </div>
+                            </div>
+                            <div class="row" style="padding-top: 24px">
+                                <div class="col-md-6">
+                                    <input type="text" name="company" placeholder="Company" required="" />
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="subject" placeholder="Subject" required="" />
                                 </div>
                             </div>
                             <br/>

@@ -45,6 +45,8 @@ class ContactMail extends Mailable
                [ 'name' => $this->message->name,
                    'company' => $this->message->company,
                    'subject' => $this->message->subject,
+                   'phone' => $this->message->phone,
+                   'site'=>$this->message->site,
                    'content' => $this->message->message
                ]
             );

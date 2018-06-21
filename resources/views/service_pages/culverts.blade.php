@@ -22,7 +22,7 @@
                     <div id="content" role="main">
                         <div>
                             <p>
-                                <img class="alignright" src="{{ asset('template/assets/image/half_culverts.png') }}" alt="">
+                                <img class="alignright" src="{{ asset('template/assets/images/half_culverts.png') }}" alt="">
                             </p>
                             <p>
                                 <h3>Half Culverts</h3>

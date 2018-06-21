@@ -3,7 +3,7 @@
         <div class="logoarea">
             <div class="col-md-4">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="{{ asset('template/assets/img/log.png') }}" alt="logo">
+                    <img src="{{ asset('template/assets/img/logo.jpg') }}" height="150" width="150" alt="logo">
                 </a>
             </div>
             <div class="col-md-8 text-right">
@@ -55,26 +55,34 @@
                         <ul id="menu-top-menu" class="nav navbar-nav nav-list">
                             <li class="current-menu-item active"><a href="{{ url('/') }}">Home</a></li>
                             <li><a href="{{ url('/about') }}">About</a></li>
-                            <li><a href="{{ url('/service') }}">Services</a></li>
-                            {{--<li class="dropdown"><a title="Pages" href="#" data-hover="dropdown" class="dropdown-toggle">--}}
-                                    {{--Pages <span class="caret"></span></a>--}}
-                                {{--<ul role="menu" class=" sub-menu">--}}
-                                    {{--<li><a href="video.html">Video</a></li>--}}
+                            <li class="dropdown"><a title="Pages" data-hover="dropdown" class="dropdown-toggle"
+                                                    href="{{ url('/service') }}">Products &amp; Services<span
+                                            class="caret"></span></a>
+                                <ul role="menu" class=" sub-menu">
+                                    <li><a href="{{ url('/solarsystem') }}">Solar System solutions</a></li>
                                     {{--<li><a href="f-a-q.html">F.A.Q.</a></li>--}}
-                                    {{--<li class="menu-item dropdown"><a title="Lightbox Galleries" href="#">Lightbox Galleries</a>--}}
-                                        {{--<ul role="menu" class="sub-menu">--}}
-                                            {{--<li><a href="gallery-four.html">Gallery Four</a></li>--}}
-                                            {{--<li><a href="gallery-three.html">Gallery Three</a></li>--}}
-                                            {{--<li><a href="gallery-two.html">Gallery Two</a></li>--}}
-                                        {{--</ul>--}}
-                                    {{--</li>--}}
-                                    {{--<li><a href="pricing.html">Pricing</a></li>--}}
-                                    {{--<li><a href="team.html">Team</a></li>--}}
-                                    {{--<li><a href="testimonials.html">Testimonials</a></li>--}}
-                                    {{--<li><a href="page-sidebar.html">Page Sidebar</a></li>--}}
-                                    {{--<li><a href="portfolio-single.html">Portfolio Single</a></li>--}}
-                                    {{--<li><a href="blog-single.html">Blog Single</a></li>--}}
-                                {{--</ul>--}}
+                                </ul>
+                            </li>
+
+                            {{--<li class="dropdown"><a title="Pages" href="#" data-hover="dropdown" class="dropdown-toggle">--}}
+                            {{--Pages <span class="caret"></span></a>--}}
+                            {{--<ul role="menu" class=" sub-menu">--}}
+                            {{--<li><a href="video.html">Video</a></li>--}}
+                            {{--<li><a href="f-a-q.html">F.A.Q.</a></li>--}}
+                            {{--<li class="menu-item dropdown"><a title="Lightbox Galleries" href="#">Lightbox Galleries</a>--}}
+                            {{--<ul role="menu" class="sub-menu">--}}
+                            {{--<li><a href="gallery-four.html">Gallery Four</a></li>--}}
+                            {{--<li><a href="gallery-three.html">Gallery Three</a></li>--}}
+                            {{--<li><a href="gallery-two.html">Gallery Two</a></li>--}}
+                            {{--</ul>--}}
+                            {{--</li>--}}
+                            {{--<li><a href="pricing.html">Pricing</a></li>--}}
+                            {{--<li><a href="team.html">Team</a></li>--}}
+                            {{--<li><a href="testimonials.html">Testimonials</a></li>--}}
+                            {{--<li><a href="page-sidebar.html">Page Sidebar</a></li>--}}
+                            {{--<li><a href="portfolio-single.html">Portfolio Single</a></li>--}}
+                            {{--<li><a href="blog-single.html">Blog Single</a></li>--}}
+                            {{--</ul>--}}
                             {{--</li>--}}
                             <li><a href="{{ url('/portfolio') }}">Portfolio</a></li>
                             {{--<li><a href="{{ url('/blog') }}">Blog</a></li>--}}

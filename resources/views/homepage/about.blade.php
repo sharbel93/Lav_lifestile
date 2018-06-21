@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="{{ asset('template/assets/img/bg1.png') }}" class="so-widget-image" alt="">
+                <img src="{{ asset('template/assets/image/construction.jpeg') }}" class="so-widget-image" alt="">
             </div>
         </div>
     </section>

@@ -5,7 +5,7 @@
 
     <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-            <h1> More About Our Products Will Be Updated Soon </h1>
+            <h1 class="text-center" style="padding: 50px;"> More About Our Products Will Be Updated Soon </h1>
         </div>
     </div>
 </div>

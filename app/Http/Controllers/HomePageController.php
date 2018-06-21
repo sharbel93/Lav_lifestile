@@ -25,6 +25,10 @@ class HomePageController extends Controller
         return view('homepage.portfolio');
     }
 
+    public function solar() {
+        return view('homepage.solarsystem');
+    }
+
     public function contact() {
         return view('homepage.contact');
     }
@@ -85,8 +89,21 @@ class HomePageController extends Controller
         return view('service_pages.solidblock');
     }
 
+    public function getTimber() {
+        return view('service_pages.timber');
+}
+    public function getSand() {
+        return view('service_pages.sand');
+    }
+    public function getBallast() {
+        return view('service_pages.ballast');
+    }
     public function getRoadCurb() {
         return view('service_pages.roadcurbs');
+    }
+
+    public function getBalu() {
+        return view('service_pages.balustrades_balcony_posts');
     }
 
     public function getRoofing() {
@@ -132,7 +149,9 @@ class HomePageController extends Controller
         $this->validate($request, array(
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255',
+            'phone' => 'required|integer',
             'company' => 'required|string|max:50',
+            'site'=>'required|string',
             'subject' => 'required|string|max:20',
             'message' => 'required|string|max:500'
         ));
@@ -143,6 +162,8 @@ class HomePageController extends Controller
         $name= $request->name;
         $content = $request->message;
         $email = $request->email;
+        $phone = $request->phone;
+        $site =$request->site;
         $subject = $request->subject;
         $company = $request->company;
 

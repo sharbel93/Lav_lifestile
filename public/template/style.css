@@ -18,6 +18,11 @@ input {
 .alignnone {
 	width:100% !important;
 }
+/*.image_spec {*/
+	/*width: 90px;*/
+	/*height: 90px;*/
+/*}*/
+
 .margin-bottom50 {margin-bottom:50px;}
 .margin-bottom30 {margin-bottom:30px;}
 .margin-negative-bottom60 {margin-bottom:-60px;}
@@ -714,6 +719,19 @@ ul#color-skins input[type="radio"] {
 	margin-top:8px
 }
 @media (max-width:1200px) {
+
+	.cayman-slider .slider-content-style1 h1 {
+		font-size:66px;
+		color:#fff;
+		margin-top:4px;
+		margin-bottom:10px;
+		font-weight:900;
+		text-transform:uppercase;
+		line-height:1;
+		margin-left:0;
+		letter-spacing:0;
+	}
+
 	.navbar-default .navbar-nav>li>a {
 		font-size:12px;
 	}
@@ -1232,6 +1250,8 @@ html.mm-opening .mm-page,html.mm-opening #mm-blocker {
 		-webkit-transform:translate(440px,0);
 		transform:translate(440px,0)
 	}
+
+
 }
 .mm-buttonbar {
 	border:1px solid transparent;
@@ -2077,7 +2097,8 @@ a.mobile-menu-close {
 	-webkit-transform:translate3d(0,0,0);
 	transform:translate3d(0,0,0);
 	border-left:1px solid #e4e4e4;
-	box-shadow:0 -2px 8px 1px rgba(0,0,0,0.06)
+	box-shadow:0 -2px 8px 1px rgba(0,0,0,0.06);
+
 }
 .mobile-menu-open #mobile-menu-wrap {
 	visibility:visible;
@@ -2140,7 +2161,7 @@ a.mobile-menu-close {
 	a.mobile-menu-close {
 		position:fixed;
 		top:40px;
-		right:10px;
+		right:30px;
 		font-size:20px;
 		display:block;
 		z-index:9999;
@@ -4201,8 +4222,8 @@ ul.social-icons li i:hover {
 .cayman-slider .slider-content-style1 h1 {
 	font-size:66px;
 	color:#fff;
-	margin-top:20px;
-	margin-bottom:26px;
+	margin-top:10px;
+	margin-bottom:8px;
 	font-weight:900;
 	text-transform:uppercase;
 	line-height:1;
@@ -6197,6 +6218,7 @@ small,.small {
 	}
 }
 @media only screen and (max-width:768px) {
+
 	.footer2 .footer-ribbon {
 		margin: -56px 0 0 0;
 	}
@@ -6394,6 +6416,8 @@ small,.small {
 }
 
 @media(max-width:500px) {
+
+
 	.carousel,.carousel-inner>.item {
 		position:relative;
 		min-height:300px;
@@ -6445,7 +6469,8 @@ small,.small {
 	}
 	.customtypewowslider .flex-caption {
 		text-align:center;
-		padding-top:15px !Important;
+		padding-top:8px !Important;
+
 
 	}
 	.pagecover .entrycover.short h1.maintitle {

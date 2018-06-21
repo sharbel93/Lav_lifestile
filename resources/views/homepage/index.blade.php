@@ -6,7 +6,7 @@
             <ul class="slides slider-content-style1 ">
                 <li style="background-color:#000000;">
                     {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2016/07/05175802/s1.jpg--}}
-                    <img src="{{ asset('template/assets/image/transport.png') }}" alt="" style="opacity:0.7;">
+                    <img  src="{{ asset('template/assets/images/truck2.png') }}" alt="" style="opacity:0.7;">
                     <div class="flex-caption " style="top:0%;">
                         <div class="container">
                             <div class="row">
@@ -59,6 +59,23 @@
                     </div>
                 </li>
                 <li style="background-color:#000000;">
+                    <img src="{{ asset('template/assets/solar/solar2.jpg') }}" alt="" style="opacity:0.7;">
+                    <div class="flex-caption" style="top:0%;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <h2 class="wow none" data-wow-duration="1.0s" data-wow-delay="0.1s">
+                                        QUALITY THAT HONORS ARCHITECTURAL VISION </h2>
+                                    <h1 class="wow fadeInUp" data-wow-duration="1.0s" data-wow-delay="0.6s"><span class="accentcolor">Solar Systems</span><br/>
+                                        Solutions</h1>
+                                    <a href="{{ url('/contact') }}" class="btn btn-ghost wow none"> Free Quote </a>
+                                    <a href="{{ url('/service') }}" class="btn btn-primary wow none"> Learn More </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-color:#000000;">
                     <img src="{{ asset('template/assets/image/general.png') }}" alt="" style="opacity:0.7;">
                     <div class="flex-caption" style="top:0%;">
                         <div class="container">
@@ -79,6 +96,8 @@
         </div>
     </section>
     <!-- =========================== SLIDER END =========================== -->
+
+
     <!-- =========================== ABOUT BEGIN =========================== -->
     <section style="padding-bottom: 15px;">
         <div class="container">
@@ -120,11 +139,52 @@
                     <li><a href="#" data-cat=".9">blocks</a></li>
                     <li><a href="#" data-cat=".11">tiles</a></li>
                     <li><a href="#" data-cat=".10">posts</a></li>
+                    <li><a href="#" data-cat=".7">sand</a></li>
+                    <li><a href="#" data-cat=".6">timber</a></li>
                     <li><a href="#" data-cat=".8">others</a></li>
                 </ul>
             </div>
         </div>
         <div id="portfolio-items" class="portfolio-items">
+            {{-- data-cat of 6 --}}
+            <article class="6">
+                <a href="{{ url('/service/timber') }}" class="portfolio-link">
+                    {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2015/09/05153404/1-470x294.jpg--}}
+                    <img src="{{ asset('template/assets/images/timber_small.png') }}" class="background-image" alt="Spanish Style">
+                    <div class="overlay">
+                        <i class="fa fa-link"></i>
+                        <h3>Timber</h3>
+                        {{--<span>--}}
+                        {{--big / houses </span>--}}
+                    </div>
+                </a>
+            </article>
+            {{-- data-cat of 7 --}}
+            <article class="7">
+                <a href="{{ url('/service/sand') }}" class="portfolio-link">
+                    {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2015/09/05153404/1-470x294.jpg--}}
+                    <img src="{{ asset('template/assets/images/quarry_sand_small.png') }}" class="background-image" alt="Spanish Style">
+                    <div class="overlay">
+                        <i class="fa fa-link"></i>
+                        <h3>Quarry Sand</h3>
+                        {{--<span>--}}
+                        {{--big / houses </span>--}}
+                    </div>
+                </a>
+            </article>
+
+            <article class="7">
+                <a href="{{ url('/service/sand') }}" class="portfolio-link">
+                    {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2015/09/05153404/1-470x294.jpg--}}
+                    <img src="{{ asset('template/assets/images/building_sand_kanyarwat_pokot_small.png') }}" class="background-image" alt="Spanish Style">
+                    <div class="overlay">
+                        <i class="fa fa-link"></i>
+                        <h3>building sand kanyarwat pokot</h3>
+                        {{--<span>--}}
+                        {{--big / houses </span>--}}
+                    </div>
+                </a>
+            </article>
             {{-- data-cat of 9 --}}
             <article class="9">
                 <a href="{{ url('/service/cabro_blocks') }}" class="portfolio-link">
@@ -322,6 +382,30 @@
                         <h3>Cabrosy design</h3>
                         {{--<span>--}}
 			{{--big / houses </span>--}}
+                    </div>
+                </a>
+            </article>
+            <article class="8">
+                <a href="{{ url('/service/ballast') }}" class="portfolio-link">
+                    {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2015/09/05153404/1-470x294.jpg--}}
+                    <img src="{{ asset('template/assets/images/stone_dust_small.png') }}" class="background-image" alt="Spanish Style">
+                    <div class="overlay">
+                        <i class="fa fa-link"></i>
+                        <h3>Stone Dust</h3>
+                        {{--<span>--}}
+                        {{--big / houses </span>--}}
+                    </div>
+                </a>
+            </article>
+            <article class="8">
+                <a href="{{ url('/service/ballast') }}" class="portfolio-link">
+                    {{--https://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/16/2015/09/05153404/1-470x294.jpg--}}
+                    <img src="{{ asset('template/assets/images/ballast_threequaterandhalf_small.png') }}" class="background-image" alt="Spanish Style">
+                    <div class="overlay">
+                        <i class="fa fa-link"></i>
+                        <h3>Ballast</h3>
+                        {{--<span>--}}
+                        {{--big / houses </span>--}}
                     </div>
                 </a>
             </article>
